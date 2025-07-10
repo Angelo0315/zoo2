@@ -12,8 +12,9 @@
             </a>
         </div>
     <br>
-    <div class="major container">
-        <h2>Editar Zonas</h2>
+    <div class="major container" style="background-color:#d49e17; border-radius: 15px;">
+        <br>
+        <h1 class="text-center text-white mb-4"><strong>Editar Zonas</strong></h1>
         <form action="{{ route('zonas.update', $zona) }}" method="post">
             @csrf @method('PATCH')
             @include('zonas.form-fields')
@@ -21,6 +22,7 @@
                 <button type="submit" class="btn btn-primary">Enviar</button>
                 <a href="{{ route('zonas.index') }}" class="btn btn-outline-secondary">Regresar</a>
             </div>
+            <br>
         </form>
     </div>
 </x-app-layout>

@@ -12,15 +12,17 @@
             </a>
         </div>
     <br>
-    <div class="major container">
-        <h2>Editar Recorrido</h2>
+    <div class="major container" style="background-color:#d49e17; border-radius: 15px;">
+        <br>
+        <h1 class="text-center text-white mb-4"><strong>Editar Recorrido</strong></h1>
         <form action="{{ route('recorridos.update', $recorrido) }}" method="post">
             @csrf @method('PATCH')
             @include('recorridos.form-fields')
             <div style="margin: 10px;">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-                <a href="{{ route('recorridos.index') }}" class="btn btn-outline-secondary">Regresar</a>
+                <button type="submit" class="btn text-white" style="background-color: #49ae27;"><strong>Enviar</strong></button>
+                <a href="{{ route('recorridos.index') }}" class=" btn btn-secondary">Regresar</a>
             </div>
+            <br>
         </form>
     </div>
 </x-app-layout>

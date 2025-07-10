@@ -32,7 +32,7 @@
 
 
         <table class="table">
-            <thead>
+            <thead class="encabezado-verde">
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Nombre</th>

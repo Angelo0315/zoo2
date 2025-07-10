@@ -14,10 +14,11 @@
     <div class="major container">
         <div class="table-responsive">
             <table class="table table-bordered table-striped align-middle text-center">
-                <thead class ="table-light">
+                <thead class="encabezado-verde">
                     <tr>
-                        <th>Cuidador</th>
-                        <th>Fecha de Ingreso</th>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Fecha de ingreso</th>
                         <th>Editar</th>
                         <th>Eliminar</th>
                     </tr>

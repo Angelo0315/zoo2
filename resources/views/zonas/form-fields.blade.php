@@ -1,15 +1,5 @@
-<div class="form-floating mb-3">
-    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-            <a href="{{ route('zonas.create') }}" class="btn btn-outline-success fw-bold">
-                ➕ Nuevo
-            </a>
-            <a href="{{ route('zonas.index') }}" class="btn btn-outline-primary fw-bold">
-                📋 Ver Lista
-            </a>
-            <a href="{{ route('zonas.search') }}" class="btn btn-outline-info fw-bold">
-                🔍 Buscar
-            </a>
-        </div>
+<div class="form-floating mb-3" style="background-color:#d49e17; border-radius: 15px;">
+
     <select class="form-select" name="id_itinerario" id="id_itinerario" required>
         <option value="">Selecciona un Itinerario</option>
         @foreach($itinerarios as $itinerario)
@@ -23,7 +13,7 @@
 
         @endforeach
     </select>
-    <label for="id_itinerario">Itinerario</label>
+
 </div>
 
 <div class="form-floating mb-3">

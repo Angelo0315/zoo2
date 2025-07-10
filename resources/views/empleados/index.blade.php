@@ -14,20 +14,21 @@
     <div class="major container">
         <div class="table-responsive">
             <table class="table table-bordered table-striped align-middle text-center">
-                <thead class ="table-light">
-                    <tr>
-                        <th>ID</th>
-                        <th>Nombre</th>
-                        <th>Apellido Paterno</th>
-                        <th>Apellido Materno</th>
-                        <th>Teléfono</th>
-                        <th>Dirección</th>
-                        <th>Fecha de Ingreso</th>
-                        <th>Tipo de Empleado</th>
-                        <th>Editar</th>
-                        <th>Eliminar</th>
-                    </tr>
-                </thead>
+                <thead class="encabezado-verde">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Apellido Paterno</th>
+        <th>Apellido Materno</th>
+        <th>Teléfono</th>
+        <th>Dirección</th>
+        <th>Fecha de Ingreso</th>
+        <th>Tipo de Empleado</th>
+        <th>Editar</th>
+        <th>Eliminar</th>
+    </tr>
+</thead>
+
                 <tbody>
                     @foreach ($empleados as $index =>$empleado)
                         <tr>
@@ -60,4 +61,5 @@
         </div>
         <a href="{{ route('empleados.create') }}" class="btn btn-secondary">Registrar Empleados</a>
     </div>
+    <br>
 </x-app-layout>

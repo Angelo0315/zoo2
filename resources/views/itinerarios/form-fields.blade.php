@@ -1,21 +1,9 @@
     <div class="container py-4">
-
-        {{-- Botones superiores --}}
-        <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-            <a href="{{ route('itinerarios.create') }}" class="btn btn-outline-success fw-bold">
-                ➕ Nuevo
-            </a>
-            <a href="{{ route('itinerarios.index') }}" class="btn btn-outline-primary fw-bold">
-                📋 Ver Lista
-            </a>
-            <a href="{{ route('itinerarios.search') }}" class="btn btn-outline-info fw-bold">
-                🔍 Buscar
-            </a>
-        </div>
+    <div class="major container" style="background-color:#d49e17; border-radius: 15px;">
 
         {{-- Contenedor principal --}}
-        <div class="p-4 rounded shadow-sm" style="background-color: #e0f7fa;">
-            <h2 class="text-center text-dark mb-4">Registrar Itinerarios</h2>
+        <br>
+            <h1 class="text-center text-white mb-4"><strong>Registrar Itinerarios</strong></h1>
 
             <form action="{{ route('itinerarios.store') }}" method="POST">
                 @csrf
@@ -82,10 +70,10 @@
 
                 {{-- Botones finales --}}
                 <div class="d-flex justify-content-center gap-3">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn text-white" style="background-color: #49ae27;"><strong>Enviar</strong></button>
                     <a href="{{ route('itinerarios.index') }}" class="btn btn-secondary">Volver a Lista</a>
                 </div>
+                <br>
 
             </form>
-        </div>
     </div>

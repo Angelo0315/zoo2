@@ -24,7 +24,7 @@
 
         {{-- Resultados --}}
         <table class="table table-bordered text-center align-middle mt-4">
-            <thead class="table-light">
+            <thead class="encabezado-verde">
                 <tr>
                     <th>ID</th>
                     <th>Especie</th>

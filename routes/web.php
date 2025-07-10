@@ -23,10 +23,21 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+//Rutas de la pagina que el usuario ve
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
+Route::get('/soyempleado', function () {
+    return view('soyempleado');
+})->name('soyempleado');
+
+Route::get('/animales', function () {
+    return view('animales');
+})->name('animales');
+
+
+
 
 
 Route::get('/dashboard', function () {

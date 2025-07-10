@@ -1,15 +1,5 @@
-<div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-            <a href="{{ route('cuidadors.create') }}" class="btn btn-outline-success fw-bold">
-                ➕ Nuevo
-            </a>
-            <a href="{{ route('cuidadors.index') }}" class="btn btn-outline-primary fw-bold">
-                📋 Ver Lista
-            </a>
-            <a href="{{ route('cuidadors.search') }}" class="btn btn-outline-info fw-bold">
-                🔍 Buscar
-            </a>
-        </div>
-
+<br>
+<h1 class="text-center text-white mb-4"><strong>Administar Cuidadores</strong></h1>
 <div class="form-floating mb-3">
     <select class="form-select" name="id_empleado" id="id_empleado" required>
         <option value="">Selecciona un Empleado</option>

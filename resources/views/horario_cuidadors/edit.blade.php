@@ -12,14 +12,10 @@
         </div>
     <br>
     <div class="major container">
-        <h2>Editar Horarios</h2>
         <form action="{{ route('horario_cuidadors.update', $horario_cuidador) }}" method="post">
             @csrf @method('PATCH')
             @include('horario_cuidadors.form-fields')
-            <div style="margin: 10px;">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-                <a href="{{ route('horario_cuidadors.index') }}" class="btn btn-outline-secondary">Regresar</a>
-            </div>
+
         </form>
     </div>
 </x-app-layout>

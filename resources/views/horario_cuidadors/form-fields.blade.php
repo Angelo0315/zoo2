@@ -1,8 +1,8 @@
     <div class="container py-4">
 
         {{-- Contenedor principal --}}
-        <div class="p-4 rounded shadow-sm" style="background-color: #e0f7fa;">
-            <h2 class="text-center text-dark mb-4">Registrar Horario de Cuidador</h2>
+        <div class="p-4 rounded shadow-sm" style="background-color:#d49e17; Border-radius: 15px;">
+            <h1 class="text-center text-white mb-4"><strong>Registrar Horario de Cuidador</strong></h1>
 
             <form action="{{ route('horario_cuidadors.store') }}" method="POST">
                 @csrf
@@ -42,7 +42,7 @@
 
                 {{-- Botones finales --}}
                 <div class="d-flex justify-content-center gap-3">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn text-white" style="background-color: #49ae27;"><strong>Enviar</strong></button>
                     <a href="{{ route('horario_cuidadors.index') }}" class="btn btn-secondary">Volver a Lista</a>
                 </div>
 

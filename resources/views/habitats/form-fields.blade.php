@@ -1,15 +1,4 @@
 <div class="form-floating mb-3">
-    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-            <a href="{{ route('habitats.create') }}" class="btn btn-outline-success fw-bold">
-                ➕ Nuevo
-            </a>
-            <a href="{{ route('habitats.index') }}" class="btn btn-outline-primary fw-bold">
-                📋 Ver Lista
-            </a>
-            <a href="{{ route('habitats.search') }}" class="btn btn-outline-info fw-bold">
-                🔍 Buscar
-            </a>
-        </div>
     <select class="form-select" name="id_especie" id="id_especie" required>
         <option value="">Selecciona una Especie</option>
         @foreach($especies as $especie)
@@ -21,7 +10,6 @@
 
         @endforeach
     </select>
-    <label for="id_especie">Especies</label>
 </div>
 
 <div class="form-floating mb-3">

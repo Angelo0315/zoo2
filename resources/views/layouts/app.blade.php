@@ -13,14 +13,21 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <style>
+    .encabezado-verde th {
+        background-color: #49ae27 !important;
+        color: white;
+    }
+</style>
+
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen">
             @include('layouts.navigation')
 
             <!-- Page Heading -->
             @if (isset($header))
-                <header class="bg-white shadow">
+                <header>
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
                     </div>
@@ -29,6 +36,7 @@
 
             <!-- Page Content -->
             <main>
+                <br>
                 {{ $slot }}
             </main>
         </div>

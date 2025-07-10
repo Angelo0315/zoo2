@@ -12,14 +12,9 @@
         </div>
     <br>
     <div class="major container">
-        <h2>Editar Los Itinerarios</h2>
         <form action="{{ route('itinerarios.update', $itinerario) }}" method="post">
             @csrf @method('PATCH')
             @include('itinerarios.form-fields')
-            <div style="margin: 10px;">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-                <a href="{{ route('itinerarios.index') }}" class="btn btn-outline-secondary">Regresar</a>
-            </div>
         </form>
     </div>
 </x-app-layout>

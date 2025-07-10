@@ -1,15 +1,4 @@
 <div class="form-floating mb-3">
-    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-            <a href="{{ route('recorridos.create') }}" class="btn btn-outline-success fw-bold">
-                ➕ Nuevo
-            </a>
-            <a href="{{ route('recorridos.index') }}" class="btn btn-outline-primary fw-bold">
-                📋 Ver Lista
-            </a>
-            <a href="{{ route('recorridos.search') }}" class="btn btn-outline-info fw-bold">
-                🔍 Buscar
-            </a>
-        </div>
     {{-- Zona --}}
 <div class="form-floating mb-3">
     <select class="form-select" name="id_zona" id="id_zona" required>

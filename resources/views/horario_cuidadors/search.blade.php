@@ -31,9 +31,9 @@
         {{-- 📋 Tabla de resultados --}}
         @if(isset($horario_cuidadors) && $horario_cuidadors->isNotEmpty())
             <table class="table table-striped table-bordered align-middle">
-                <thead class="table-light">
+                <thead class="encabezado-verde">
                     <tr>
-                        <th>#</th>
+                        <th>ID</th>
                         <th>Cuidador</th>
                         <th>Fecha</th>
                         <th>Horario Entrada</th>

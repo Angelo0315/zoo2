@@ -1,15 +1,4 @@
- <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-            <a href="{{ route('empleados.create') }}" class="btn btn-outline-success fw-bold">
-                ➕ Nuevo
-            </a>
-            <a href="{{ route('empleados.index') }}" class="btn btn-outline-primary fw-bold">
-                📋 Ver Lista
-            </a>
-            <a href="{{ route('empleados.search') }}" class="btn btn-outline-info fw-bold">
-                🔍 Buscar
-            </a>
-        </div>
-        
+         
 <div class="form-floating mb-3">
     <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre"  value="{{old('nombre',$empleado->nombre)}}" required>
     <label for="nombre">Nombre</label>

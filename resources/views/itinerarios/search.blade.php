@@ -27,7 +27,7 @@
         {{-- 📋 Tabla de resultados --}}
         @if(isset($itinerarios) && $itinerarios->isNotEmpty())
             <table class="table table-striped table-bordered align-middle">
-                <thead class="table-light">
+                <thead class="encabezado-verde">
                     <tr>
                         <th>ID</th>
                         <th>Guía</th>

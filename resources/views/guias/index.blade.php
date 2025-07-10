@@ -11,10 +11,10 @@
             </a>
         </div>
     <br>
-    <div class="major container">
+    <div class="major container" >
         <div class="table-responsive">
             <table class="table table-bordered table-striped align-middle text-center">
-                <thead class ="table-light">
+                <thead class="encabezado-verde">
                     <tr>
                         <th>ID</th>
                         <th>Guía</th>

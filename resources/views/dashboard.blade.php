@@ -5,7 +5,7 @@
 
             {{-- Card: GUÍAS --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Empleados</h5>
                         <p class="card-text">Consulta y edita la información del personal empleado.</p>
@@ -16,7 +16,7 @@
 
             {{-- Card: ESPECIES --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Especies</h5>
                         <p class="card-text">Consulta, filtra y administra las especies del zoológico.</p>
@@ -27,7 +27,7 @@
 
             {{-- Card: HÁBITATS --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Hábitats</h5>
                         <p class="card-text">Gestiona los hábitats según su clima y continente.</p>
@@ -38,7 +38,7 @@
 
             {{-- Card: ZONAS --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Zonas</h5>
                         <p class="card-text">Administra las zonas del zoológico y su recorrido.</p>
@@ -49,7 +49,7 @@
 
             {{-- Card: RECORRIODS --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Recorridos</h5>
                         <p class="card-text">Registra los reccorridos</p>
@@ -60,7 +60,7 @@
 
             {{-- Card: ITINERARIOS --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Itinerarios</h5>
                         <p class="card-text">Define recorridos y tiempos estimados de visita.</p>
@@ -71,7 +71,7 @@
 
             {{-- Card: GUÍAS --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Guías</h5>
                         <p class="card-text">Consulta y edita la información del personal guía.</p>
@@ -82,7 +82,7 @@
 
             {{-- Card: Horarios de Guias --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Horario de Guías</h5>
                         <p class="card-text">Consulta y edita el horario del personal guía.</p>
@@ -93,7 +93,7 @@
 
             {{-- Card: CUIDADORES --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Cuidadores</h5>
                         <p class="card-text">Administra las áreas y especies asignadas a cuidadores.</p>
@@ -104,7 +104,7 @@
 
             {{-- Card: Horarios de Cuidadores --}}
             <div class="col">
-                <div class="card text-white h-100" style="background-color: #fd7e14;">
+                <div class="card text-white h-100" style="background-color: #d4a017;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title text-uppercase fw-bold">Horario de Cuidadores</h5>
                         <p class="card-text">Consulta y edita el horario de los personal Cuidadores.</p>
