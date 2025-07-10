@@ -68,11 +68,12 @@
                         <hr class="my-4">
 
                         <div class="text-center">
-                            <!-- AQUI IRA EL SOCIALITE DE GOOGLE-->
+                            <a href="/google-auth/redirect" class="btn btn-outline-danger">
                                 <img src="https://img.icons8.com/color/16/000000/google-logo.png" class="me-2">
                                 Iniciar sesión con Google
                             </a>
                         </div>
+
                     </form>
                 </div>
             </div>
